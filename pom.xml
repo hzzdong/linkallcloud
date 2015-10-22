@@ -147,6 +147,13 @@
 	
 	<dependencyManagement>
 		<dependencies>
+		
+		<dependency>
+            <groupId>org.nutz</groupId>
+            <artifactId>nutz</artifactId>
+            <version>1.b.53</version>
+        </dependency>
+		
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -273,12 +280,6 @@
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
 			<version>4.1.1</version>
-			<scope>${scope.provided}</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.nutz</groupId>
-			<artifactId>nutz</artifactId>
-			<version>1.a.31</version>
 			<scope>${scope.provided}</scope>
 		</dependency>		
 		<dependency>
